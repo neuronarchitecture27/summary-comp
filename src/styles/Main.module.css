@@ -1,0 +1,144 @@
+
+
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color:aliceblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    display: flex;
+    background-color: #fdfffd ;
+    border-radius: 30px;
+
+}
+
+.score {
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #6541fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.container__summary {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+    font-family: "HankenGrotesk-Bold";
+}
+
+.p {
+    text-align: center;
+    font-family: "HankenGrotesk-Bold"
+
+}
+
+.rating {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4c22cc;
+    color: #fdfffd;
+}
+
+.description {
+    color: #fdfffd; 
+    font-family:"HankenGrotesk";
+     font-size: 13px;
+     width: 70%;
+    padding-bottom: 12%;
+}
+
+.skills {
+    padding-left: 6%;
+}
+
+.reaction {
+    background-color: #fff6f5;
+    padding-left: 6%;
+    color: #f48182;
+    font-family: "HankenGrotesk";
+}
+
+.memory {
+    background-color: #fffbf2;
+    padding-left: 6%;
+    color: #f5c371;
+    font-family: "HankenGrotesk";
+
+}
+
+.verbal {
+    background-color: #f2fafa;
+    padding-left: 6%;
+    color: #5cd7b5;
+    font-family: "HankenGrotesk";
+
+}
+
+.visual {
+    background-color: #f3f3fd;
+    padding-left: 6%;
+    color: #3e48c9;
+    font-family: "HankenGrotesk";
+
+}
+
+.iconHolder {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wrapper_pb {
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.wrapper_skills {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.continueBtn {
+    display:block; 
+    margin: 25px auto;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    border-color: transparent;
+    font-family: "HankenGrotesk";
+}
+
+.continueBtn:hover {
+    background-color: white;
+    color: black;
+    border: 0 transparent;
+}
+
+
