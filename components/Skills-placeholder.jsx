@@ -13,28 +13,28 @@ function SkillsPlaceholder() {
      style: styles.reaction, 
      title: "Reaction",
      icon: Iconreaction,
-     score: "78/100"
+     score: "78 / 100"
     }, 
 
     {
      style: styles.memory,
      title: "Memory",
      icon: Iconmemory,
-     score: "85/100"
+     score: "85 / 100"
     }, 
 
     {
      style:styles.verbal,
      title: "Verbal",
      icon: Iconverbal,
-     score: "60/100"
+     score: "60 / 100"
     }, 
 
     {
      style: styles.visual,
      title: "Visual",
      icon: Iconvisual,
-     score: "90/100"
+     score: "90 / 100"
     }]
 
 
