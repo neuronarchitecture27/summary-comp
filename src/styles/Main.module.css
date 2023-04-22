@@ -4,7 +4,7 @@
 .wrapper {
     height: 100vh;
     width: 100vw;
-    background-color:aliceblue;
+    background-color: white;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     display: flex;
     background-color: #fdfffd ;
     border-radius: 30px;
-    box-shadow: 10px 10px 7px #c0d7ff00;
+    box-shadow: 10px 10px 7px 6px #c0d7ff00;
 
 }
 
